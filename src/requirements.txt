@@ -1,0 +1,5 @@
+# pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+numpy>=1.21.0
+matplotlib>=3.4.0
+

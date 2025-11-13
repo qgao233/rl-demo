@@ -30,7 +30,7 @@ Q(S,A)←Q(S,A)+α[R+γQ(S',A')−Q(S,A)]
 ```
 
 - `α`：学习率
-- `γ`：gama折扣因子
+- `γ`：gamma折扣因子
 
 #### 行动策略（Behavior Policy）
 在 `Q(S, A)` 中如何选择动作 `a`(直接决定`R`是多少)，SARSA 采用 **ε-greedy** 方法：
@@ -54,7 +54,7 @@ Q(S,A)←Q(S,A)+α[R+γ max Q(S',A')−Q(S,A)]
 ```
 
 - `α`：学习率
-- `γ`：gama折扣因子
+- `γ`：gamma折扣因子
 
 #### 行动策略（Behavior Policy）
 在 `Q(S, A)` 中如何选择动作 `a`(直接决定`R`是多少)，Q-Learning 采用 **ε-greedy** 方法（还可使用其他任意探索策略）：
